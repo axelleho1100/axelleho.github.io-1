@@ -3,7 +3,7 @@
 .navbar {
   padding: 2rem;
   
-  background-color: #28594B;
+  background-color: #8C031C;
   box-shadow: 0 10px 15px 0 rgba(0.5,0,0,.4);
 }
 
@@ -24,17 +24,17 @@ section {
 h1 {
   font-size: 2.5rem;
   font-family: 'Abril Fatface', cursive;
+  color: #aeaeae;
 }
 
 .seccion-oscura {
-  color: #F2F2F2;
-  background-color: #2C3740;
+  color: #BFACAA;
+  background-color: #0D0D0D;
 }
 
 .seccion-clara {
-  color: #2C3740;
-  /*background: rgb(242,182,160);*/
-  background-color: #f2e9e6;
+  color: #0D0D0D;
+  background-color: #BFACAA;
 }
 
 .seccion-titulo {
@@ -45,7 +45,7 @@ h1 {
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #584e4e;
+  color: #BF0A3A;
 }
 
 .seccion-texto {
@@ -68,7 +68,8 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #f2e9e6;
+  /* background-color: #0D0D0D; */
+  background: linear-gradient(0deg, rgba(13,13,13,1) 0%, rgba(71,71,71,1) 100%);
   min-height: 450px;
   text-align: center;
 }
@@ -118,13 +119,13 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #2C3740;
+  background-color: #8C031C;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: gainsboro;
+  background-color: #F2163E;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -148,14 +149,14 @@ h1 {
 
 .button {
   border: none;
-  color: #2C3740;
+  color: gainsboro;
   padding: .6rem .6rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: .8rem;
   margin: 1rem 1rem;
-  background-color: #F2B6A0;
+  background-color: #F2163E;
   border-radius: 10%;
   -webkit-border-radius: 10%;
   -moz-border-radius: 10%;
@@ -224,20 +225,25 @@ h1 {
 
 .button-2 {
   border: none;
-  color: #2C3740;
+  color: #BF0A3A;
   padding: .6rem .6rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1.2rem;
   margin: 1rem 1rem;
-  background-color: #F2B6A0;
+  background-color: #0D0D0D;
   border-radius: 10%;
   -webkit-border-radius: 10%;
   -moz-border-radius: 10%;
   -ms-border-radius: 10%;
   -o-border-radius: 10%;
   box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.button-2:hover{
+  color: #0D0D0D;
+  background-color: #BF0A3A;
 }
 
 
@@ -272,9 +278,9 @@ h1 {
 
 .testimonio-texto {
   max-width: 70%;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Bacasime Antique', serif;
 }
 
 .testimonio-info {
@@ -305,7 +311,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #297350;
+  background: linear-gradient(0deg, rgba(242,22,62,1) 0%, rgba(205,15,50,1) 14%, rgba(172,9,39,1) 40%, rgba(140,3,28,1) 100%);
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -357,7 +363,8 @@ footer {
   height: 80px;
   width: 80px;
   margin: 10px;
-  color: #F2F2F2;
+  color: #BFACAA;
+  fill: #BFACAA;
 }
 
 .footer-texto {
@@ -365,6 +372,13 @@ footer {
   padding: 20px;
   margin-bottom: 30px;
   font-family: 'Quicksand', sans-serif;
+}
+
+.footer-band{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  background-color: #8C031C;
 }
 
 .iconos-redes-sociales a {
@@ -440,3 +454,22 @@ footer {
 .Typewriter__cursor {
   color: #af4b80 !important;
 }
+
+/* Floating Button*/
+.float {
+  position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#F2B6A0;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+  margin: 10px;
+}
+
